@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Em" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="VM.css" rel="stylesheet" type="text/css" />
+    <script src="js-image-slider.js" type="text/javascript"></script>
+
+    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style2
+        {
+            width: 212px;
+        }
+        .style3
+        {
+            width: 212px;
+            height: 155px;
+        }
+        .style4
+        {
+        }
+        .style5
+        {
+            height: 155px;
+            width: 290px;
+        }
+        .style6
+        {
+            width: 290px;
+        }
+        .style7
+        {
+            height: 155px;
+            width: 282px;
+        }
+        .style8
+        {
+            width: 282px;
+        }
+        .style9
+        {
+            width: 212px;
+            height: 179px;
+        }
+        .style10
+        {
+            width: 290px;
+            height: 179px;
+        }
+        .style11
+        {
+            width: 282px;
+            height: 179px;
+        }
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+ <div style="height: auto; width:1200px">
+  
+    <div style="height:150px; width:1000px; margin-left:150PX; margin-top:20px">
+     <hr />
+        <asp:Image ID="Image1" runat="server" Height="149px" ImageUrl="image/logo.png" 
+            Width="1000px" />
+             <hr />
+              </div>
+               
+            <div style="height:5px; width:1000px; margin-left:150PX; background-color:Transparent ; margin-top:15px; border:3px">
+            </div>
+       
+   <div class="templatemo_topmenu" style="height:60px">
+  
+ <ul>
+      <li><a href="Admin.aspx" class="current">Home</a></li>
+
+      <li><a href="PayIntrest.aspx">PayIntrest</a></li>
+     
+       <li><a href="ViewT.aspx">View Transcation</a></li>
+      <li><a href="ViewLR.aspx">View CloseAccount Request</a></li>
+      <li><a href="viewtransfer.aspx" class="current">View IntrestPaid Info</a></li>
+       <li><a href="Home.aspx">LogOut</a></li>
+    </ul>
+     
+  </div>
+   
+  <div style="height:5px; width:1000px; margin-left:150PX; background-color: Transparent">
+            </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       
+   <div id="templatemo_footer">
+  
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                 &copy; Copyright 2022 DigiPost                        
+                                       <hr />
+                                    </div>
+
+    </div>
+    
+    </form>
+</body>
+</html>

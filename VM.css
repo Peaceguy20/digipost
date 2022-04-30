@@ -1,0 +1,100 @@
+﻿body 
+{
+	 background-color:#EBE0D6;
+}
+.templatemo_topmenu{
+
+	 background-color:#E6E6E6;
+ margin-left:150px;
+	width: 1000px;
+ height:40px;
+}
+
+
+.templatemo_topmenu ul {
+
+	list-style: none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+.templatemo_topmenu li{
+
+	display: inline;
+
+}
+
+.templatemo_topmenu li a{
+
+	float: left;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	color: #000000;
+
+	width: 155px;
+
+	height: 36px;
+
+	margin-left: 5px;
+
+	margin-right: 5px;
+ padding-right:1px;
+	padding-top: 14px;
+
+}
+
+.templatemo_topmenu li a:hover, .current{
+
+	color: #7f76ff;
+
+	
+
+}
+
+#templatemo_footer 
+{
+
+	float: left;
+
+	margin-top: 10px;
+
+	text-align: center;
+
+
+
+	width: 1000px;
+
+	height: 30px;
+
+	 background-image:url(footer.jpg);
+
+		margin-left: 150px;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+.textbox
+
+{
+     color:Black;
+   
+   
+     Border-Color:#6666FF;
+                            Border-Style:Ridge; 
+                            Font-Size:Medium;
+}
+
+.userimage
+{
+  margin-top:13px;   
+}
